@@ -43,7 +43,6 @@ nav a:hover{
     padding: 1rem;
 }
 
-
 section {
     display: flex;
     justify-content: space-around;
@@ -54,4 +53,46 @@ article{
     border: #26877f 1px solid;
     background-color: #e0f6f4;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 1rem;
+}
+
+.products img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.banner p, .product p{
+    padding: 0.5rem ;
+}
+.banner article{
+    animation-name: banner;
+    animation-duration: 6s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    color: #c3e9e5;
+    width: 100%;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer img{
+    width: 2rem;
+    
+}
+
+@keyframes banner{
+    0%   {background-color:#e0f6f4; }
+    25%  {background-color:#fff }
+    50%  {background-color:#e0f6f4; }
+    75%  {background-color:#fff }
+    100% {background-color:#e0f6f4; }
+}
+
