@@ -5,7 +5,7 @@ This repository contains all the code and projects I complete during my Coursera
 ## 📌 Courses  
 - Meta Front-End Developer Professional Certificate   
 
-### Acomplishments
+### Accomplishments
 - Introduction to Front-End Development
 - Programming with JavaScript
 - HTML and CSS in depth
